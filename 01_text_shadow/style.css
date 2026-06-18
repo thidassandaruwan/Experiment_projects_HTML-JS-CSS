@@ -1,0 +1,41 @@
+html,
+body{
+    margin: 0;
+    background-color: gray;
+}
+
+.card{
+    margin: 10px;
+    border-radius: 10px;
+    color: #fafbf4;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.normal_shadow{
+    background-color: #b7111b;
+}
+
+.shadow_glow{
+    background-color: #fafbf4;
+}
+
+#black_shadow{
+    font-size: 80px;
+    text-shadow: 5px 5px 5px black;
+}
+
+#glow_shadow{
+    font-size: 80px;
+    text-shadow: 5px 0px 10px #b7111b;
+}
+
+.black_theme{
+    background-color: black;
+    color: black;
+    text-shadow: 0px 0px 50px #b7111b;
+}
